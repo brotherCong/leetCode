@@ -1,4 +1,4 @@
-package lt1115;
+package multithreaded.lt1115;
 
 import java.util.concurrent.Semaphore;
 
@@ -9,13 +9,13 @@ import java.util.concurrent.Semaphore;
  * Date 2019/9/4 11:28
  * Version 1.0
  **/
-public class FooBar {
+public class FooBarSemaphore {
 
     private int n;
     private Semaphore semaphore01;
     private Semaphore semaphore02;
 
-    public FooBar(int n) {
+    public FooBarSemaphore(int n) {
         this.n = n;
         semaphore01 = new Semaphore(1);
         semaphore02 = new Semaphore(0);

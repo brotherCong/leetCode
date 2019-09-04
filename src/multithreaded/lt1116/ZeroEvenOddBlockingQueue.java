@@ -1,26 +1,27 @@
-package lt1116;
+package multithreaded.lt1116;
 
-import java.util.concurrent.Semaphore;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
 import java.util.function.IntConsumer;
 
 /**
- * @ClassName ZeroEvenOdd
+ * @ClassName ZeroEvenOddBlockingQueue
  * Description TODO
  * Author cds
- * Date 2019/9/4 13:41
+ * Date 2019/9/4 15:19
  * Version 1.0
  **/
-public class ZeroEvenOdd {
+public class ZeroEvenOddBlockingQueue {
     private  int n;
-    private Semaphore spazero;
-    private Semaphore spaeven;
-    private Semaphore spaodd;
+    private BlockingQueue bqzero;
+    private BlockingQueue bqeven;
+    private BlockingQueue bqodd;
 
-    public ZeroEvenOdd(int n) {
+    public ZeroEvenOddBlockingQueue(int n) {
         this.n = n;
-        spazero= new Semaphore(1);
-        spaeven= new Semaphore(0);
-        spaodd= new Semaphore(0);
+        bqzero= new ArrayBlockingQueue(1);
+        bqeven= new ArrayBlockingQueue(1);
+        bqodd= new ArrayBlockingQueue(1);
     }
 
     // printNumber.accept(x) outputs "x", where x is an integer.
@@ -28,13 +29,13 @@ public class ZeroEvenOdd {
 
 
         for (int i = 1; i <= n; i++) {
-            spazero.acquire();
+            bqzero.put(i);
             printNumber.accept(0);
             if(i%2==0){
-                spaeven.release();
+                bqeven.put(i);
             }
             if(i%2==1){
-                spaodd.release();
+                bqodd.put(i);
             }
         }
 
@@ -43,32 +44,32 @@ public class ZeroEvenOdd {
     /**
      *只输出偶数
      * @param printNumber
-    * @return void
+     * @return void
      * @author cds
      * @create:
      * @date 2019/9/4 14:45
      */
     public void even(IntConsumer printNumber) throws InterruptedException {
         for (int i = 2; i <= n; i+=2) {
-            spaeven.acquire();
-            printNumber.accept(i);
-            spazero.release();
+            int x =(int) bqeven.take();
+            printNumber.accept(x);
+            bqzero.take();
         }
     }
 
     /**
      *只输出奇数
      * @param printNumber
-    * @return void
+     * @return void
      * @author cds
      * @create:
      * @date 2019/9/4 14:44
      */
     public void odd(IntConsumer printNumber) throws InterruptedException {
         for (int i = 1; i <= n; i+=2) {
-            spaodd.acquire();
-            printNumber.accept(i);
-            spazero.release();
+            int x =(int)bqodd.take();
+            printNumber.accept(x);
+            bqzero.take();
         }
     }
 }
