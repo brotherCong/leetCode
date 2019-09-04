@@ -56,7 +56,7 @@ public class H2O {
      * @date 2019/9/4 15:44
      */
 
-    //使用阻塞队列效果应该也很好
+    //使用阻塞队列效果应该也很好  基本和信号量一致 略
     private Semaphore spH;
     private Semaphore spO;
     private CyclicBarrier cyclicBarrier;
