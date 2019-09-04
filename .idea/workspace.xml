@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="016d87f4-6c11-40cd-a473-c8a6378c1243" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/leetCode/META-INF/leetCode.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetCode/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetCode/lt1114/FooCountDownLatch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetCode/lt1114/FooSemaphore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetCode/lt1114/FooSynchronized.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetCode/lt1114/lt1114.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetCode/lt1115/FooBarSemaphore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetCode/lt1115/lt1115.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetCode/lt1116/ZeroEvenOddBlockingQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetCode/lt1116/ZeroEvenOddSemaphore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/leetCode/lt1116/lt1116.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lt1117/H2O.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreaded/lt1117/lt1117.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt1114/FooCountDownLatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt1114/FooCountDownLatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt1114/FooSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt1114/FooSemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt1114/FooSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt1114/FooSynchronized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt1114/lt1114.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt1114/lt1114.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt1115/FooBarSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt1115/FooBarSemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt1115/lt1115.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt1115/lt1115.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt1116/ZeroEvenOddBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt1116/ZeroEvenOddBlockingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt1116/ZeroEvenOddSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt1116/ZeroEvenOddSemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt1116/lt1116.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt1116/lt1116.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetCode/multithreaded/lt1117/H2O.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetCode/multithreaded/lt1117/H2O.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreaded/lt1117/H2O.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreaded/lt1117/H2O.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,19 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lt1114/FooSynchronized.java">
+        <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1114/lt1114.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lt1114/lt1114.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="344">
+              <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,36 +29,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lt1115/FooBarSemaphore.java">
+        <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1115/FooBarSemaphore.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
-              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lt1117/H2O.java">
+        <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1117/H2O.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1228">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="295">
+              <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1117/lt1117.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://E:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/CyclicBarrier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-189">
+            <state relative-caret-position="115">
               <caret line="138" column="26" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lt1116/ZeroEvenOddSemaphore.java">
+        <entry file="jar://E:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/locks/Condition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="5196">
+              <caret line="485" column="9" selection-start-line="485" selection-start-column="9" selection-end-line="485" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1116/ZeroEvenOddSemaphore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-348">
               <caret line="12" column="33" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,10 +92,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lt1116/ZeroEvenOddBlockingQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1116/ZeroEvenOddBlockingQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1118">
-              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="37" />
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,22 +113,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lt1116/lt1116.java">
+        <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1116/lt1116.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lt1115/lt1115.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="464">
+              <caret line="60" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -169,6 +154,8 @@
         <option value="$PROJECT_DIR$/src/lt1116/ZeroEvenOddBlockingQueue.java" />
         <option value="$PROJECT_DIR$/src/lt1116/lt1116.java" />
         <option value="$PROJECT_DIR$/src/lt1117/H2O.java" />
+        <option value="$PROJECT_DIR$/src/multithreaded/lt1117/H2O.java" />
+        <option value="$PROJECT_DIR$/src/multithreaded/lt1117/lt1117.java" />
       </list>
     </option>
   </component>
@@ -207,7 +194,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567583744384" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567591891010" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -221,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lt1114">
+  <component name="RunManager" selected="Application.lt1117">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="leetCode" />
@@ -271,14 +258,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lt1117" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreaded.lt1117.lt1117" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreaded.lt1117.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.lt1114" />
       <item itemvalue="Application.lt1115" />
       <item itemvalue="Application.lt1116" />
+      <item itemvalue="Application.lt1117" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lt1117" />
         <item itemvalue="Application.lt1114" />
         <item itemvalue="Application.lt1116" />
         <item itemvalue="Application.lt1115" />
@@ -300,22 +302,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19894099" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.16187595" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3747954" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.18330605" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.4762684" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.30605564" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -334,16 +337,16 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.16187595" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3747954" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.35188216" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.4762684" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.41080198" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -411,14 +414,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lt1114/FooSemaphore.java">
+    <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1114/FooSemaphore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4">
           <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lt1114/FooCountDownLatch.java">
+    <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1114/FooCountDownLatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="41" column="5" selection-start-line="13" selection-start-column="3" selection-end-line="41" selection-end-column="5" />
@@ -439,17 +442,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lt1114/lt1114.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lt1114/FooSynchronized.java">
+    <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1114/FooSynchronized.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-23">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
@@ -463,20 +456,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lt1115/lt1115.java">
+    <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1115/lt1115.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lt1116/lt1116.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -487,30 +470,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lt1116/ZeroEvenOddSemaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lt1116/ZeroEvenOddBlockingQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1116/ZeroEvenOddBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1118">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="37" />
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lt1115/FooBarSemaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -521,17 +487,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lt1117/H2O.java">
+    <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1116/lt1116.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1228">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="464">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1116/ZeroEvenOddSemaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1114/lt1114.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1115/FooBarSemaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="jar://E:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/CyclicBarrier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
+        <state relative-caret-position="115">
           <caret line="138" column="26" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5196">
+          <caret line="485" column="9" selection-start-line="485" selection-start-column="9" selection-end-line="485" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1117/H2O.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithreaded/lt1117/lt1117.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
