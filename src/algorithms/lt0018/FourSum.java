@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.lt0018;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,7 +14,7 @@ import java.util.List;
 public class FourSum {
 
     public static void main(String[] args) {
-        int[] nums = new int[]{-1, 0, 1, 2, -1, -4, 3, 5};
+        int[] nums = new int[]{1,0,-1,0,-2,2};
         Arrays.sort(nums);//数组排序
         int target = 0;
         List<List<Integer>> list = fourSum(nums, target);
@@ -32,37 +32,32 @@ public class FourSum {
             return result;
         }
 
-        for (int i = 0; i < nums.length; i++) {
+
+        for (int i = 0; i < nums.length-3; i++) {
+            if(i>0 && nums[i]==nums[i-1]){
+                continue;
+            }
+
             List<List<Integer>> resulttmp = new ArrayList();
-            resulttmp = threeSum(nums, nums[i] - target);
+            resulttmp = threeSum(nums, target-nums[i],i+1);
             if (resulttmp != null && resulttmp.size() > 0) {
-                for (int j = 0; j < resulttmp.size(); j++) {
-                    List<Integer> l = resulttmp.get(j);
-                    List<Integer> r = new ArrayList<Integer>();
-                    if(l!=null && l.size()>0){
-                        for (Integer x:l
-                             ) {
-                            r.add(x);
-                        }
-                        r.add(i);
-                        result.add(r);
-                    }
-
-
+                for (List<Integer> t:resulttmp) {
+                    t.add(nums[i]);
+                    result.add(t);
                 }
             }
         }
         return result;
     }
 
-    public static List<List<Integer>> threeSum(int[] nums, int target) {
+    public static List<List<Integer>> threeSum(int[] nums, int target,int m) {
         List<List<Integer>> result = new ArrayList();
 
         if (nums == null || nums.length <= 2) {//如果数组为空或者长度小于3则直接返回
             return result;
         }
 
-        for (int i = 0; i < nums.length - 2; i++) {//循环数组 这里不能到-3  -3会导致000不走
+        for (int i = m; i < nums.length - 2; i++) {//循环数组 这里不能到-3  -3会导致000不走
             int min = i + 1, max = nums.length - 1;
             if (nums[i] > target || nums[max] < target) {//最小的大于目标值  或者最大的小于目标值  退出
                 break;
@@ -76,7 +71,12 @@ public class FourSum {
             while (min < max) {
                 int sum = nums[i] + nums[min] + nums[max];
                 if (sum == target) {
-                    result.add(Arrays.asList(nums[i], nums[min], nums[max]));
+//                    result.add(Arrays.asList(nums[i], nums[min], nums[max]));
+                    List<Integer> list = new ArrayList<>();
+                    list.add(nums[i]);
+                    list.add(nums[min]);
+                    list.add(nums[max]);
+                    result.add(list);
                     while (min < max && nums[min] == nums[min + 1]) min++; //跳过重复
                     while (max > min && nums[max] == nums[max - 1]) max--; //跳过重复
                     min++;
